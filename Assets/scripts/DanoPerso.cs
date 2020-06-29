@@ -43,6 +43,15 @@ public class DanoPerso : MonoBehaviour
             Dano(dano);
 
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Cura"))
+        {
+            vidaatual = vidamaxima;
+            barravida.VidaMaxima(vidamaxima);
+        }
+          
+    }
     public void Dano(int xDmg)
     {
         vidaatual -= xDmg;

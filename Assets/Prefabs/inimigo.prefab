@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3840361756651236056}
   - component: {fileID: 4563462685439200079}
   - component: {fileID: 4601697930726345002}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 8524366037315392866}
   - component: {fileID: 2332209518893216543}
   - component: {fileID: 8662716304530379124}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7e3519294659247af698a44d12cf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 7889229237107664103, guid: 3565d9f3ac34d294e81ef96b3742cde5, type: 3}
 --- !u!1 &2598443897157125335
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 1632768981666289858}
   - component: {fileID: 1632768981666289859}
   - component: {fileID: 8480269261282334828}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: inimigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,6 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dano: 10
+  danoEspecial: 0
   vidamaxima: 50
   vidaatual: 50
   barravida: {fileID: 7492611520070174119}
@@ -310,9 +311,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e99af4bf212aa7142bc3e0608fe85831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projetil: {fileID: 9061192138482149813, guid: ce9f5b8fb3e4c8d46b6a59370bd9a14f,
+  projetil: {fileID: 2508387473179452191, guid: 27ae4bb9f9ec5064e804c8871976e134,
     type: 3}
   timer: 1
+  timer2: 1
+  velocidade: 0.007
 --- !u!1 &3816103883973699849
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,7 +327,7 @@ GameObject:
   - component: {fileID: 4001504193324649064}
   - component: {fileID: 8252088747497342022}
   - component: {fileID: 7492611520070174119}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Barra de Vida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
