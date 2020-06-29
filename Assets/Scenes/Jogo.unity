@@ -142,6 +142,7 @@ MonoBehaviour:
   projetil: {fileID: 9061192138482149813, guid: ce9f5b8fb3e4c8d46b6a59370bd9a14f,
     type: 3}
   timer: 0.5
+  player: {fileID: 0}
 --- !u!1 &98617024 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4697496317546999510, guid: 33146351e2d84de4b81f39b65b4a770c,
@@ -356,6 +357,7 @@ MonoBehaviour:
   projetil: {fileID: 9061192138482149813, guid: ce9f5b8fb3e4c8d46b6a59370bd9a14f,
     type: 3}
   timer: 0.5
+  player: {fileID: 98617027}
 --- !u!1 &344233758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,6 +1374,7 @@ MonoBehaviour:
   projetil: {fileID: 9061192138482149813, guid: ce9f5b8fb3e4c8d46b6a59370bd9a14f,
     type: 3}
   timer: 0.5
+  player: {fileID: 0}
 --- !u!114 &1034371388 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7492611520070174119, guid: fb2569d00e22d4d48a2fefdcf27d686b,
@@ -2768,6 +2771,7 @@ MonoBehaviour:
   projetil: {fileID: 9061192138482149813, guid: ce9f5b8fb3e4c8d46b6a59370bd9a14f,
     type: 3}
   timer: 0.5
+  player: {fileID: 0}
 --- !u!1001 &2016536797
 PrefabInstance:
   m_ObjectHideFlags: 0
