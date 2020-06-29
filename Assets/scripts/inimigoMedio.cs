@@ -6,6 +6,7 @@ public class inimigoMedio : MonoBehaviour
 {
     public GameObject projetil;
     public float timer = 0.5f;
+    public Controle player;
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class inimigoMedio : MonoBehaviour
     {
         timer -= Time.deltaTime;
 
+        transform.LookAt(player.transform);
         if (timer <= 0.0f)
         {
             GameObject currentball = Instantiate(projetil, transform.position + transform.forward * 2, projetil.transform.rotation);

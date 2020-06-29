@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 7621457571065332393}
   - component: {fileID: 175131410572423672}
   - component: {fileID: 7421763736718387120}
-  - component: {fileID: 1370345184019898482}
-  m_Layer: 0
-  m_Name: Tiro boss
+  - component: {fileID: -2697936118668242665}
+  m_Layer: 10
+  m_Name: Tiro
   m_TagString: Bala
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1370345184019898482
+--- !u!114 &-2697936118668242665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,6 +120,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 9061192138482149813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24738b44b1dd5f94bbdb07360fce974d, type: 3}
+  m_Script: {fileID: 11500000, guid: 140a90b638d825c4cabf36c3cd7c8564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
