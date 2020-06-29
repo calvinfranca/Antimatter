@@ -30,7 +30,7 @@ public class DanoVidaBoss : MonoBehaviour
         if (vidaatual <= 0)
         {
             Destroy(gameObject);
-            SceneManager.LoadScene("Vitoria");
+        //    SceneManager.LoadScene("Vitoria");
         };
         
         
