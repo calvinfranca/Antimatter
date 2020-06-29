@@ -434,6 +434,16 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7231457386048227992, guid: 03bc9d74258d64f4490f050f149b3843,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231457386048227992, guid: 03bc9d74258d64f4490f050f149b3843,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 800
+      objectReference: {fileID: 0}
     - target: {fileID: 7231457386048227994, guid: 03bc9d74258d64f4490f050f149b3843,
         type: 3}
       propertyPath: m_Name
