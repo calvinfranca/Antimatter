@@ -244,6 +244,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7231457386048227998}
     m_Modifications:
+    - target: {fileID: 4815413604942837576, guid: 6fea035ee59937547a858ca4ae395ffe,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815413604942837581, guid: 6fea035ee59937547a858ca4ae395ffe,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815413604942837582, guid: 6fea035ee59937547a858ca4ae395ffe,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee,
+        type: 2}
+    - target: {fileID: 4815413604942837582, guid: 6fea035ee59937547a858ca4ae395ffe,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 4815413605331231894, guid: 6fea035ee59937547a858ca4ae395ffe,
         type: 3}
       propertyPath: m_LocalPosition.x
