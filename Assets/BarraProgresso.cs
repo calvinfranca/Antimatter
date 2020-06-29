@@ -13,7 +13,7 @@ public class BarraProgresso : MonoBehaviour
     public Image fill;
     
     public Controle control;
-    public float timer=1; 
+     
 
 
     // Start is called before the first frame update
@@ -32,7 +32,15 @@ public class BarraProgresso : MonoBehaviour
     {
         max = control.cooldown;
         
-        atual = control.cooldown - control.tempo;
+        if (control.tempo <= 0)
+        {
+            atual = 10;
+        }
+        else
+        {
+            atual = control.cooldown - control.tempo;
+        }
+       
 
       
         

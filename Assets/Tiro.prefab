@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 175131410572423672}
   - component: {fileID: 7421763736718387120}
   - component: {fileID: -2697936118668242665}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tiro
   m_TagString: Bala
   m_Icon: {fileID: 0}

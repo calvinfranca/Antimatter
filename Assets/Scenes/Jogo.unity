@@ -1558,7 +1558,6 @@ MonoBehaviour:
   min: 0
   fill: {fileID: 408148928}
   control: {fileID: 98617027}
-  timer: 1
 --- !u!114 &1177397670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1667,6 +1666,11 @@ PrefabInstance:
       propertyPath: foco
       value: 
       objectReference: {fileID: 344233758}
+    - target: {fileID: 4697496317546999509, guid: 33146351e2d84de4b81f39b65b4a770c,
+        type: 3}
+      propertyPath: tempo
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4697496317546999510, guid: 33146351e2d84de4b81f39b65b4a770c,
         type: 3}
       propertyPath: m_Name

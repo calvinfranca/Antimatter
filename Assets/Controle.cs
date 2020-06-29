@@ -14,7 +14,7 @@ public class Controle : MonoBehaviour
     public GameObject especial_dispersao;
     public float cooldown=10;
     public float nextFireTime=0;
-    public float tempo = 10;
+    public float tempo = 0;
     
 
 
@@ -36,10 +36,11 @@ public class Controle : MonoBehaviour
    // Update is called once per frame
    void Update()
    {
-        if (tempo <= 10)
-        {
-            tempo -= Time.deltaTime;
-        }
+        
+         
+        StartTimer();
+        
+        
         
         
         if (Time.timeScale < 1)
@@ -68,10 +69,17 @@ public class Controle : MonoBehaviour
                 nextFireTime = Time.time + cooldown;
                 tempo = 10f;
                 
+                
 
             }
         }
 
+    }
+    void StartTimer()
+    {
+        tempo -= Time.deltaTime;
+      
+        
     }
     
 }
