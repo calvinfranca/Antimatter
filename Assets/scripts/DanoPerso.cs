@@ -48,4 +48,13 @@ public class DanoPerso : MonoBehaviour
         vidaatual -= xDmg;
         barravida.SetVida(vidaatual);
     }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("Cura"))
+        {
+            vidaatual = vidaatual + 5;
+        }
+
+    }
 }   

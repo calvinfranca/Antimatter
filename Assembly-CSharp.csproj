@@ -99,6 +99,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\camRay1.cs" />
     <Compile Include="Assets\ctrlArqueiro.cs" />
+    <Compile Include="Assets\cura.cs" />
     <Compile Include="Assets\scripts\BarraProgresso.cs" />
     <Compile Include="Assets\scripts\BarraVida.cs" />
     <Compile Include="Assets\scripts\Billboard.cs" />
