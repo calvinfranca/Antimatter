@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 987
-  m_MinSize: {x: 708, y: 492}
-  m_MaxSize: {x: 18003, y: 14042}
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 167
+  controlID: 361
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 15
+  controlID: 335
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 16
+  controlID: 336
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 966
+  controlID: 368
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -316,8 +316,8 @@ MonoBehaviour:
     y: 0
     width: 589
     height: 987
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 0
+  m_MaximizeOnPlay: 1
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -441,9 +441,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: e83a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 6470feff9271feff9c73feff3474feff8674feff3875feff52bafeff787e000086820000a8820000
+      m_ExpandedIDs: def5ffff70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -503,9 +503,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 80.642204, y: -295.66312, z: 391.19702}
+    m_Target: {x: -221.66136, y: -14.167214, z: -246.72298}
     speed: 2
-    m_Value: {x: 80.642204, y: -295.66312, z: 391.19702}
+    m_Value: {x: -221.66136, y: -14.167214, z: -246.72298}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -551,13 +551,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2588407, y: 0.06980645, z: -0.01865559, w: 0.963272}
+    m_Target: {x: 0.054023422, y: -0.57158333, z: 0.037846047, w: 0.81804913}
     speed: 2
-    m_Value: {x: 0.25738105, y: 0.06983044, z: -0.018549796, w: 0.96360505}
+    m_Value: {x: -0.054023422, y: 0.57158333, z: -0.037846047, w: -0.81804913}
   m_Size:
-    m_Target: 671.6637
+    m_Target: 216.58928
     speed: 2
-    m_Value: 671.6637
+    m_Value: 216.58928
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -653,14 +653,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Arquivos de Programas\aquii\unity\TCC-master
+  m_LastProjectPath: D:\Arquivos de Programas\aquii\unity\TCC-master - Copia (2)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ec7e0000
-    m_LastClickedID: 32492
-    m_ExpandedIDs: 000000004a7b00004c7b00004e7b0000507b0000527b0000547b0000567b0000587b00005a7b000000ca9a3b
+    m_SelectedIDs: 30390000
+    m_LastClickedID: 14640
+    m_ExpandedIDs: 00000000fc380000fe38000000390000023900000439000006390000083900000a39000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,7 +688,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004a7b00004c7b00004e7b0000507b0000527b0000547b0000567b0000587b00005a7b0000
+    m_ExpandedIDs: 00000000fc380000fe38000000390000023900000439000006390000083900000a39000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -715,7 +715,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

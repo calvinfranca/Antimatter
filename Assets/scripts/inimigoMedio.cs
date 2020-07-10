@@ -5,7 +5,7 @@ using UnityEngine;
 public class inimigoMedio : MonoBehaviour
 {
     public GameObject projetil;
-    public float timer = 0.5f;
+    public float timer = 1f;
     public Controle player;
 
     void Start()
@@ -26,7 +26,7 @@ public class inimigoMedio : MonoBehaviour
             
 
 
-            timer = 0.2f;
+            timer = 1f;
 
 
         }

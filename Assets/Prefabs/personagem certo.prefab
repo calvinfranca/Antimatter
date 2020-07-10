@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8821771550752888136}
   - component: {fileID: 3995632358487927432}
   - component: {fileID: 8728271480025209030}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 4697496317546999509}
   - component: {fileID: 4697496317546999508}
   - component: {fileID: 363581813010374209}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: personagem certo
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -173,6 +173,9 @@ MonoBehaviour:
     type: 3}
   especial_dispersao: {fileID: 8103800950282720395, guid: fce3abb7d69269d4fbd1f5a8dd614dec,
     type: 3}
+  cooldown: 10
+  nextFireTime: 0
+  tempo: 0
   cam: {fileID: 0}
   foco: {fileID: 0}
   bombForce: 1000
@@ -207,6 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dano: 10
+  danoEspecial: 0
   vidamaxima: 100
   vidaatual: 100
   barravida: {fileID: 8137619472029546059}
@@ -223,7 +227,7 @@ GameObject:
   - component: {fileID: 6952726456387484156}
   - component: {fileID: 124536270639715761}
   - component: {fileID: 8329293481858622890}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +338,7 @@ GameObject:
   - component: {fileID: 4744858584523784547}
   - component: {fileID: 4857842263887841807}
   - component: {fileID: 8137619472029546059}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Barra de Vida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
