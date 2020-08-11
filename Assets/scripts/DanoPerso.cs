@@ -48,7 +48,8 @@ public class DanoPerso : MonoBehaviour
         if (other.gameObject.CompareTag("Cura"))
         {
             vidaatual = vidamaxima;
-            barravida.VidaMaxima(vidamaxima);
+            barravida.VidaMaxima(vidaatual);
+            
         }
           
     }
@@ -57,4 +58,6 @@ public class DanoPerso : MonoBehaviour
         vidaatual -= xDmg;
         barravida.SetVida(vidaatual);
     }
+
+    
 }   

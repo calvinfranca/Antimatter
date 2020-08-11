@@ -6,7 +6,7 @@ public class SelfDestroyMedio : MonoBehaviour
 {
     void Start()
     {
-        Destroy(gameObject, 1);
+        Destroy(gameObject, 5);
     }
 
     // Update is called once per frame

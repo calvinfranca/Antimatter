@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cura : MonoBehaviour
+public class cura : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,10 +15,13 @@ public class Cura : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-            Destroy(gameObject);
-    }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
+       
+    }
 }
